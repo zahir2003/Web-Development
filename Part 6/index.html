@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page which contains description about form">
+    <title>Forms-lets learn it</title>
+</head>
+<body>
+    <div>
+    <h1>Form to apply for a part-time Job</h1>
+    <h3>Put your personal details in the  below</h3>
+    <form action="post">
+        <label for="name">Enter your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name" autofocus>
+        </div>
+        <div>
+            <label for="gender">Mark the gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">I'm 18+</label>
+        </div>
+        <div>
+            <label for="comment">Elaborate about yourself</label>
+         <br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="degree">Select your degree</label>
+            <select name="degree">
+                <option value="h.s">H.S</option>
+                <option value="b.sc">B.Sc</option>
+                <option value="m.sc">M.Sc</option>
+                <option value="b.tech">B.Tech</option>
+                <option value="m.tech">M.Tech</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
